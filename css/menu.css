@@ -1,0 +1,12 @@
+body {
+   /* the box model */
+}
+
+.main-menu {
+   margin: 10px 850px 10px 850px;
+   border: 5px;
+   border-color: black;
+   border-style: double;
+}
+
+
