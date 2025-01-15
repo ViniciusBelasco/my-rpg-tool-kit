@@ -1,0 +1,21 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background-color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.order-logo {
+  border: 3px solid white;
+  height: auto;
+  width: 300px;
+}
+
+.tormenta-logo {
+  border: 3px solid white;
+  height: auto;
+  width: 300px;
+}
