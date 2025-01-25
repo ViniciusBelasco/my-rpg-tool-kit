@@ -12,6 +12,7 @@ header {
   text-align: center;
   color: wheat;
   text-shadow: #fbfbfb 1px 0 5px;
+  border-bottom: 10px solid;
 }
 
 body {
@@ -53,6 +54,7 @@ footer {
   color: wheat;
   padding: 1rem;
   margin-top: auto; /*se necessário empurra o footer para o final da página*/
+  border-top: 10px solid;
 }
 
 img {
