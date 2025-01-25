@@ -6,28 +6,36 @@
   box-sizing: border-box; /* set boxes to be the exact size I define */
 }
 
-main,
 header {
   padding: 2rem;
-}
-
-header {
+  background-color: #392b1d;
   text-align: center;
   color: wheat;
   text-shadow: #fbfbfb 1px 0 5px;
 }
 
 body {
-  color: white;
-  background-color: black;
+  background-color: #7f6042;
   font-family: "Macondo", serif;
   font-weight: 400;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* isso aqui é gambiarra, já que o body lida com todo a tela e isso afeta os sections
+então a classe define prioridade no css e seta apenas o height da section como 0% */
+.rpg-link {
+  height: 0%;
 }
 
 main {
-  display: flex;
-  gap: 1.5rem;
+  flex: 1; /* faz o conteúdo principal ocupar todo o espaço disponivel */
+  display: grid;
+  /* grid-auto-flow: column;  set things as columns */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2rem;
 }
 
 .order-logo,
@@ -36,4 +44,20 @@ main {
 .symbaroum-logo {
   height: 130px;
   width: 300px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  background-color: #392b1d;
+  color: wheat;
+  padding: 1rem;
+  margin-top: auto; /*se necessário empurra o footer para o final da página*/
+}
+
+img {
+  border: 3px solid #7f4b02;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #392b1d;
 }
