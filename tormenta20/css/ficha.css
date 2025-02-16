@@ -4,36 +4,24 @@
   box-sizing: border-box;
 }
 
-.character-info {
-  margin-bottom: 5px;
-  padding: 0.5rem;
+body {
+  border: 2px solid red;
 }
 
-.character-info input,
-.character-info label {
-  width: 10%;
+.other-info,
+.character-status {
+  display: flex;
 }
 
-.character-info .char-level {
-  width: 2rem;
+.other-info div,
+.character-status div {
+  display: grid;
 }
 
-.character-info .names {
-  margin-bottom: 0.7rem;
+.skills {
+  display: grid;
 }
 
-.other-info input,
-.other-info label {
+.abilities {
   display: inline-block;
-  width: 6em;
-}
-
-.other-info input {
-  position: relative;
-  top: -2em;
-}
-
-.other-info label {
-  margin-right: 0.3em;
-  padding-top: 1.5em;
 }
