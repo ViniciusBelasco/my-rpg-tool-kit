@@ -18,10 +18,63 @@ body {
   display: grid;
 }
 
-.skills {
-  display: grid;
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.abilities {
+.status input {
+  width: 25%;
+}
+
+.status p {
+  margin-bottom: -1px;
+}
+
+.status.weapon label,
+.status.defense label {
   display: inline-block;
+  margin-bottom: 1px;
+  font-weight: bold;
+  padding: 3px;
+}
+.status.weapon input,
+.status.defense input {
+  width: 4rem;
+  padding: 6px;
+}
+
+.status.weapon label[for="weapon"] {
+  margin-right: 21rem; 
+}
+.status.weapon label[for="critical"] {
+  margin-left: 1.4rem;
+  margin-right: 0.5rem;
+}
+.status.weapon label[for="range"] {
+  margin-left: 1.7rem;
+}
+.status.weapon input[name="weapon"] {
+  width: 24rem;
+}
+
+.status.defense label[for="defense"] {
+  padding-right: 3.5rem;
+}
+.status.defense label[for="bonus-armour"] {
+  padding-left: 0.5rem;
+}
+.status.defense label[for="bonus-shield"] {
+  padding-left: 0.5rem;
+  padding-right: 1.5rem;
+}
+
+.status.defense fieldset {
+   left: 0px;
+   width: 35%;
+   position: absolute;
+}
+
+.skills fieldset {
+   margin-left: 35%;
 }
