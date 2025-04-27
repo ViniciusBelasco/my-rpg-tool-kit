@@ -40,38 +40,56 @@
                     </div>
                 </fieldset>
             </div>
-        </div>
-        <div class="character-status">
-            <fieldset>
-                <p>
-                    <label for="char-strength">FOR</label>
-                    <label for="char-dexterity">DES</label>
-                    <label for="char-constitution">CON</label>
-                    <label for="char-inteligence">INT</label>
-                    <label for="char-wisdom">SAB</label>
-                    <label for="char-charism">CAR</label>
-                </p>
-                <input type="text" name="char-strength" />
-                <input type="text" name="char-dexterity" />
-                <input type="text" name="char-constitution" />
-                <input type="text" name="char-inteligence" />
-                <input type="text" name="char-wisdom" />
-                <input type="text" name="char-charism" />
-            </fieldset>
-        </div>
-        <div class="abilities">
-            <div>
+            <div class="character-status">
                 <fieldset>
-                    <label for="max-hit-points">PV(max.)</label>
-                    <input type="text" name="max-hit-points" />
-                    <label for="hit-points">Pontos de vida</label>
-                    <input type="text" name="hit-points" />
-                    <label for="max-mana-points">PM(max.)</label>
-                    <input type="text" name="max-mana-points" />
-                    <label for="mana-points">Pontos de Mana</label>
-                    <input type="text" name="mana-points" />
+                    <div class="info">
+                        <label for="char-strength">FOR</label>
+                        <input type="text" name="char-strength" />
+                    </div>
+                    <div class="info">
+                        <label for="char-dexterity">DES</label>
+                        <input type="text" name="char-dexterity" />
+                    </div>
+                    <div class="info">
+                        <label for="char-constitution">CON</label>
+                        <input type="text" name="char-constitution" />
+                    </div>
+                    <div class="info">
+                        <label for="char-inteligence">INT</label>
+                        <input type="text" name="char-inteligence" />
+                    </div>
+                    <div class="info">
+                        <label for="char-wisdom">SAB</label>
+                        <input type="text" name="char-wisdom" />
+                    </div>
+                    <div class="info">
+                        <label for="char-charism">CAR</label>
+                        <input type="text" name="char-charism" />
+                    </div>
                 </fieldset>
             </div>
+            <div class="life-points">
+                <fieldset>
+                    <div class="info">
+                        <label for="max-hit-points">PV(max.)</label>
+                        <input type="text" name="max-hit-points" />
+                    </div>
+                    <div class="info">
+                        <label for="hit-points">Pontos de vida</label>
+                        <input type="text" name="hit-points" />
+                    </div>
+                    <div class="info">
+                        <label for="max-mana-points">PM(max.)</label>
+                        <input type="text" name="max-mana-points" />
+                    </div>
+                    <div class="info">
+                        <label for="mana-points">Pontos de Mana</label>
+                        <input type="text" name="mana-points" />
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="abilities">
             <div class="weapon status">
                 <fieldset>
                     <p>Ataques</p>
@@ -131,100 +149,75 @@
                     </fieldset>
                 </div>
             </div>
-            <div class="skills">
-                <fieldset>
-                    <p>Pericias</p>
+        </div>
+        <div class="skill-list">
+            <p>Pericias</p>
+            <fieldset>
+                <div class="skill">
                     <label for="acrobatics">Acrobacia</label>
-                    <input type="text" name="acrobatics" />
-                    <p></p>
                     <label for="animal-handling">Adestramento</label>
-                    <input type="text" name="animal-handling" />
-                    <p></p>
                     <label for="athletics">Atletismo</label>
-                    <input type="text" name="athletics" />
-                    <p></p>
                     <label for="performance">Atuação</label>
-                    <input type="text" name="performance" />
-                    <p></p>
                     <label for="ride">Cavalgar</label>
-                    <input type="text" name="ride" />
-                    <p></p>
                     <label for="knowledge">Conhecimento</label>
-                    <input type="text" name="knowledge" />
-                    <p></p>
                     <label for="heal">Cura</label>
-                    <input type="text" name="heal" />
-                    <p></p>
                     <label for="diplomacy">Diplomacia</label>
-                    <input type="text" name="diplomacy" />
-                    <p></p>
                     <label for="deception">Enganação</label>
-                    <input type="text" name="deception" />
-                    <p></p>
                     <label for="fortitude">Fortitude</label>
-                    <input type="text" name="fortitude" />
-                    <p></p>
                     <label for="stealth">Furtividade</label>
-                    <input type="text" name="stealth" />
-                    <p></p>
                     <label for="war">Guerra</label>
-                    <input type="text" name="war" />
-                    <p></p>
                     <label for="initiative">Iniciativa</label>
-                    <input type="text" name="initiative" />
-                    <p></p>
                     <label for="intimidation">Intimidação</label>
-                    <input type="text" name="intimidation" />
-                    <p></p>
                     <label for="intuition">Intuição</label>
-                    <input type="text" name="intuition" />
-                    <p></p>
                     <label for="investigation">Investigação</label>
-                    <input type="text" name="investigation" />
-                    <p></p>
                     <label for="gambling">Jogatina</label>
-                    <input type="text" name="gambling" />
-                    <p></p>
                     <label for="thievery">Ladinagem</label>
-                    <input type="text" name="thievery" />
-                    <p></p>
                     <label for="fight">Luta</label>
-                    <input type="text" name="fight" />
-                    <p></p>
                     <label for="mysticism">Misticismo</label>
-                    <input type="text" name="mysticism" />
-                    <p></p>
                     <label for="nobility">Nobreza</label>
-                    <input type="text" name="nobility" />
-                    <p></p>
                     <label for="craft1">Ofício</label>
-                    <input type="text" name="craft1" />
-                    <p></p>
                     <label for="craft2">Ofício</label>
-                    <input type="text" name="craft2" />
-                    <p></p>
                     <label for="perception">Percepção</label>
-                    <input type="text" name="perception" />
-                    <p></p>
                     <label for="piloting">Pilotagem</label>
-                    <input type="text" name="piloting" />
-                    <p></p>
                     <label for="aim">Pontaria</label>
-                    <input type="text" name="aim" />
-                    <p></p>
                     <label for="reflexes">Reflexos</label>
-                    <input type="text" name="reflexes" />
-                    <p></p>
                     <label for="religion">Religião</label>
-                    <input type="text" name="religion" />
-                    <p></p>
                     <label for="survive">Sobrevivência</label>
-                    <input type="text" name="survive" />
-                    <p></p>
                     <label for="will-power">Vontade</label>
+                </div>
+                <div class="skill-input">
+                    <input type="text" name="acrobatics" />
+                    <input type="text" name="animal-handling" />
+                    <input type="text" name="athletics" />
+                    <input type="text" name="performance" />
+                    <input type="text" name="ride" />
+                    <input type="text" name="knowledge" />
+                    <input type="text" name="heal" />
+                    <input type="text" name="diplomacy" />
+                    <input type="text" name="deception" />
+                    <input type="text" name="fortitude" />
+                    <input type="text" name="stealth" />
+                    <input type="text" name="war" />
+                    <input type="text" name="initiative" />
+                    <input type="text" name="intimidation" />
+                    <input type="text" name="intuition" />
+                    <input type="text" name="investigation" />
+                    <input type="text" name="gambling" />
+                    <input type="text" name="thievery" />
+                    <input type="text" name="fight" />
+                    <input type="text" name="mysticism" />
+                    <input type="text" name="nobility" />
+                    <input type="text" name="craft1" />
+                    <input type="text" name="craft2" />
+                    <input type="text" name="perception" />
+                    <input type="text" name="piloting" />
+                    <input type="text" name="aim" />
+                    <input type="text" name="reflexes" />
+                    <input type="text" name="religion" />
+                    <input type="text" name="survive" />
                     <input type="text" name="will-power" />
-                </fieldset>
-            </div>
+                </div>
+            </fieldset>
         </div>
     </body>
 </html>
