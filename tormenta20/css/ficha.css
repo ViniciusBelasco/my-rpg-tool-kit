@@ -22,8 +22,16 @@ fieldset {
    margin-right: 1em;
 }
 
-.skill-list fieldset {
+.abilities,
+.attack fieldset,
+.defense fieldset,
+.skill-list fieldset,
+.defense fieldset .info div {
    display: flex;
+}
+
+.info span {
+   margin: 0 5px;
 }
 
 .skill {
