@@ -7,62 +7,62 @@
         <link href="./css/ficha.css" rel="stylesheet" />
     </head>
     <body>
-        <div class="character-info">
-            <div class="names">
-                <fieldset>
-                    <label for="char-name">Personagem:</label>
-                    <input type="text" name="char-name" />
-                    <label for="player-name">Jogador(a):</label>
-                    <input type="text" name="player-name" />
-                </fieldset>
+      <section class="character-sheet-header">
+         <div class="user-and-character-info">
+            <div class="field">
+                 <label for="char-name">Personagem:</label>
+                 <input type="text" name="char-name" />
             </div>
-            <div class="other-info">
-                <fieldset>
-                    <div class="info">
-                        <label for="char-race">Raça:</label>
-                        <input type="text" name="char-race" />
-                    </div>
-                    <div class="info">
-                        <label for="char-origin">Origem:</label>
-                        <input type="text" name="char-origin" />
-                    </div>
-                    <div class="info">
-                        <label for="char-class">Classe:</label>
-                        <input type="text" name="char-class" />
-                    </div>
-                    <div class="info">
-                        <label for="char-level">Nível:</label>
-                        <input type="text" name="char-level" class="char-level" />
-                    </div>
-                    <div class="info">
-                        <label for="char-divinity">Divindade:</label>
-                        <input type="text" name="char-divinity" />
-                    </div>
-                </fieldset>
+            <div class="field">
+                 <label for="player-name">Jogador(a):</label>
+                 <input type="text" name="player-name" />
             </div>
+         </div>
+         <div class="core-character-atributes">
+            <div class="field">
+              <label for="char-race">Raça:</label>
+              <input type="text" name="char-race" />
+            </div>
+            <div class="field">
+              <label for="char-origin">Origem:</label>
+              <input type="text" name="char-origin" />
+            </div>
+            <div class="field">
+              <label for="char-class">Classe:</label>
+              <input type="text" name="char-class" />
+            </div>
+            <div class="field">
+              <label for="char-level">Nível:</label>
+              <input type="text" name="char-level" class="char-level" />
+            </div>
+            <div class="field">
+              <label for="char-divinity">Divindade:</label>
+              <input type="text" name="char-divinity" />
+            </div>
+         </div>
             <div class="character-status">
                 <fieldset>
-                    <div class="info">
+                    <div class="field">
                         <label for="char-strength">FOR</label>
                         <input type="text" name="char-strength" />
                     </div>
-                    <div class="info">
+                    <div class="field">
                         <label for="char-dexterity">DES</label>
                         <input type="text" name="char-dexterity" />
                     </div>
-                    <div class="info">
+                    <div class="field">
                         <label for="char-constitution">CON</label>
                         <input type="text" name="char-constitution" />
                     </div>
-                    <div class="info">
+                    <div class="field">
                         <label for="char-inteligence">INT</label>
                         <input type="text" name="char-inteligence" />
                     </div>
-                    <div class="info">
+                    <div class="field">
                         <label for="char-wisdom">SAB</label>
                         <input type="text" name="char-wisdom" />
                     </div>
-                    <div class="info">
+                    <div class="field">
                         <label for="char-charism">CAR</label>
                         <input type="text" name="char-charism" />
                     </div>
@@ -70,51 +70,51 @@
             </div>
             <div class="life-points">
                 <fieldset>
-                    <div class="info">
+                    <div class="field">
                         <label for="max-hit-points">PV(max.)</label>
                         <input type="text" name="max-hit-points" />
                     </div>
-                    <div class="info">
+                    <div class="field">
                         <label for="hit-points">Pontos de vida</label>
                         <input type="text" name="hit-points" />
                     </div>
-                    <div class="info">
+                    <div class="field">
                         <label for="max-mana-points">PM(max.)</label>
                         <input type="text" name="max-mana-points" />
                     </div>
-                    <div class="info">
+                    <div class="field">
                         <label for="mana-points">Pontos de Mana</label>
                         <input type="text" name="mana-points" />
                     </div>
                 </fieldset>
             </div>
-        </div>
+      </section>
         <div class="abilities">
             <div class="expertise">
                 <div class="attack">
                     <p>Ataques</p>
                     <fieldset>
-                        <div class="info">
+                        <div class="field">
                             <label for="weapon">Arma</label>
                             <input type="text" name="weapon" />
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="attack-roll">Atk Roll</label>
                             <input type="text" name="attack-roll" />
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="damage">Dano</label>
                             <input type="text" name="damage" />
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="critical">Crítico</label>
                             <input type="text" name="critical" />
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="damage-type">Tipo</label>
                             <input type="text" name="damage-type" />
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="range">Alcance</label>
                             <input type="text" name="range" />
                         </div>
@@ -122,32 +122,32 @@
                 </div>
                 <div class="defense">
                     <fieldset>
-                        <div class="info">
+                        <div class="field">
                             <label for="defense">Defesa</label>
                             <div>
                                 <input type="text" name="defense" />
                                 <span>=10+</span>
                             </div>
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="defense-dexterity">Destreza</label>
                             <input type="text" name="char-dexterity" />
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="bonus-armour">Armadura</label>
                             <div>
                                 <span>+</span>
                                 <input type="text" name="bonus-armour" />
                             </div>
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="bonus-shield">Escudo</label>
                             <div>
                                 <span>+</span>
                                 <input type="text" name="bonus-shield" />
                             </div>
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="other-defense-bonus">Outros</label>
                             <div>
                                 <span>+</span>
@@ -156,21 +156,21 @@
                         </div>
                     </fieldset>
                     <fieldset>
-                        <div class="info">
+                        <div class="field">
                             <label for="armour-and-shield">Armadura e escudo</label>
                             <input type="text" />
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="armour-defense">Defesa</label>
                             <input type="text" name="armour-defense" />
                         </div>
-                        <div class="info">
+                        <div class="field">
                             <label for="armour-shield">Penalidade</label>
                             <input type="text" name="armour-shield" />
                         </div>
                     </fieldset>
                     <fieldset>
-                        <div class="info">
+                        <div class="field">
                             <label for="proficiency">PROFICIÊNCIAS E OUTRAS CARACTERISTICAS</label>
                             <input type="text" name="proficiency" />
                         </div>
